@@ -1,0 +1,48 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+    height: 80vh;
+    width:30vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: black;
+    position: relative;
+    left: 35%;
+    top: 70px;
+    border-radius: 20%;
+}
+.display{
+    color: black;
+    height:10%;
+    width: 67%;
+    margin:1rem;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ans{
+    font-size: 25px;
+}
+.row .btns{
+    height: 70px;
+    width: 70px;
+    border: 2px solid black;
+    border-radius: 50%;
+    color: white;
+    background-color: grey;
+    font-size: larger;
+    cursor: pointer;
+    transition: opacity 0.5s 0s;
+}
+.btns:hover{
+    opacity:0.5;
+}
+#operator{
+    background-color: rgb(209, 128, 36);
+}
